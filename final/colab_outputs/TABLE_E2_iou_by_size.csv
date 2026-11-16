@@ -1,0 +1,4 @@
+size,EfficientSAM-S,EfficientSAM-Ti,objects
+small,0.656,0.66,306
+medium,0.859,0.843,238
+large,0.926,0.914,166

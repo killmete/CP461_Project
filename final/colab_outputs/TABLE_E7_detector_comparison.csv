@@ -1,0 +1,5 @@
+detector / setting,F1 (macro),Balanced accuracy,Precision (macro),Recall (macro),F1 (weighted),F1 (micro),Precision (micro),Recall (micro),Cohen kappa,MCC,Accuracy (all GT objects),Accuracy (localised objects),FP on background,ROC-AUC (macro),PR-AUC (macro),F1 Plastic,F1 Paper & Cardboard,F1 Metal,F1 Glass,F1 Other Waste,Recall Plastic,Recall Paper & Cardboard,Recall Metal,Recall Glass,Recall Other Waste
+v1 · conf 0.25,0.268,0.267,0.295,0.267,0.304,0.326,0.348,0.307,0.191,0.248,0.307,0.675,303.0,0.674,0.391,0.398,0.315,0.429,0.067,0.133,0.414,0.27,0.506,0.043,0.1
+v1 · per-class thr (val),0.289,0.245,0.365,0.245,0.329,0.343,0.427,0.287,0.178,0.239,0.287,0.689,182.0,0.674,0.391,0.435,0.325,0.484,0.067,0.133,0.396,0.257,0.427,0.043,0.1
+v2 · conf 0.25,0.273,0.271,0.322,0.271,0.329,0.367,0.385,0.351,0.214,0.267,0.351,0.703,293.0,0.685,0.422,0.456,0.236,0.476,0.062,0.136,0.539,0.176,0.506,0.043,0.089
+v2 · per-class thr (val),0.275,0.221,0.446,0.221,0.341,0.368,0.479,0.299,0.177,0.237,0.299,0.716,147.0,0.685,0.422,0.484,0.205,0.462,0.071,0.152,0.464,0.122,0.371,0.043,0.106

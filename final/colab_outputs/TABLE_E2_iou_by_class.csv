@@ -1,0 +1,6 @@
+cls,EfficientSAM-S,EfficientSAM-Ti
+Plastic,0.82,0.807
+Paper & Cardboard,0.901,0.885
+Metal,0.831,0.832
+Glass,0.719,0.735
+Other Waste,0.677,0.678

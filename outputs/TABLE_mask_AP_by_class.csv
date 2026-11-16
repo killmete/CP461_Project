@@ -1,0 +1,6 @@
+,EfficientSAM-Ti,EfficientSAM-S,YOLO-seg
+Plastic,0.299,0.307,0.253
+Paper & Cardboard,0.212,0.217,0.133
+Metal,0.353,0.362,0.286
+Glass,0.012,0.013,0.007
+Other Waste,0.024,0.022,0.03

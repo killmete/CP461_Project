@@ -1,0 +1,6 @@
+box prompt,jitter %,objects,mean box IoU vs GT,mIoU box Ti,mIoU box+centre Ti,mIoU box S,mIoU box+centre S,n objects
+GT box ±0%,0.0,all GT objects,1.0,0.781,0.784,0.787,0.783,710
+GT box ±5%,5.0,all GT objects,0.906,0.78,0.783,0.786,0.783,710
+GT box ±10%,10.0,all GT objects,0.822,0.774,0.774,0.784,0.779,710
+GT box ±20%,20.0,all GT objects,0.68,0.75,0.749,0.768,0.762,710
+YOLO box (matched),,YOLO-matched objects,0.88,0.864,0.867,0.876,0.872,354

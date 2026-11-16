@@ -1,0 +1,6 @@
+Method,Prompt,Mask AP,Mask AP50,Mask AP75,mIoU,mDice,IoU≥0.5 rate,ms / image,Params (M)
+GT box → EfficientSAM-Ti,oracle box,,,,0.781,0.863,0.901,,10.223
+GT box → EfficientSAM-S,oracle box,,,,0.787,0.867,0.903,,26.413
+YOLO box → EfficientSAM-Ti,predicted box,0.18,0.233,0.189,0.877,0.929,0.978,160.131,19.653
+YOLO box → EfficientSAM-S,predicted box,0.184,0.235,0.193,0.884,0.933,0.991,291.578,35.843
+YOLO-seg (one-stage),—,0.142,0.218,0.153,0.832,0.902,0.971,22.525,10.084

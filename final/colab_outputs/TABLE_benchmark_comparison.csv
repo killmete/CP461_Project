@@ -1,0 +1,18 @@
+metric,source,setting,model,value,caveat
+Box mAP50 (multi-class TACO),"Majchrowska et al. 2022, Waste Management",TACO+ · 7 material classes,EfficientDet-D2,0.162,"more images (≈4.5k), 7 classes"
+Box mAP50 (multi-class TACO),"Saakyan & Solntsev 2026, arXiv 2602.23043",TACO · 59 classes · 640 px,YOLO26-S,0.124,59 fine classes (harder)
+Box mAP50 (multi-class TACO),"Saakyan & Solntsev 2026, arXiv 2602.23043",TACO · 59 classes · 640 px,D-FINE-S,0.244,59 fine classes (harder)
+Box mAP50 (1-class 'litter'),"Córdova et al. 2022, Sensors",TACO · 1 class,YOLOv5s @640,0.547,no classification needed (easier)
+Mask AP (TACO),Proença & Simões 2020 (TACO paper),TACO-10 · 4-fold CV,Mask R-CNN R50,0.176,"10 classes, ±0.016 over folds"
+Mask AP (TACO),"Saakyan & Solntsev 2026, arXiv 2602.23043",TACO · 59 classes · 640 px,YOLO26-seg S,0.111,59 fine classes
+Mask AP (TACO),"Saakyan & Solntsev 2026, arXiv 2602.23043",TACO · 59 classes · 640 px,D-FINE-seg S,0.177,59 fine classes
+Box-prompt mIoU (GT box),"Xiong et al. 2024, EfficientSAM (CVPR)",COCO,EfficientSAM-Ti,0.757,reference paper; COCO not TACO
+Box-prompt mIoU (GT box),"Xiong et al. 2024, EfficientSAM (CVPR)",COCO,EfficientSAM-S,0.769,reference paper; COCO not TACO
+Box-prompt mIoU (GT box),"Xiong et al. 2024, EfficientSAM (CVPR)",COCO,SAM ViT-H (636M),0.784,reference paper; 25–60× bigger
+Box mAP50 (multi-class TACO),OURS,TACO · 5 material classes,YOLO11s v1 (progress),0.246,
+Box mAP50 (multi-class TACO),OURS,TACO · 5 material classes,YOLO11s v2 (final),0.27,
+Mask AP (TACO),OURS,TACO · 5 material classes,YOLO → EfficientSAM-Ti,0.19,detector v2
+Mask AP (TACO),OURS,TACO · 5 material classes,YOLO → EfficientSAM-S,0.196,detector v2
+Mask AP (TACO),OURS,TACO · 5 material classes,YOLO11s-seg (one-stage),0.142,detector v2
+Box-prompt mIoU (GT box),OURS,TACO test (710 objects),EfficientSAM-Ti,0.781,zero-shot
+Box-prompt mIoU (GT box),OURS,TACO test (710 objects),EfficientSAM-S,0.787,zero-shot

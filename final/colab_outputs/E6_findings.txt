@@ -1,0 +1,6 @@
+- Best prompt: EfficientSAM-Ti → GT box + 3 oracle points (mIoU 0.793 vs 0.781 for the box alone, +0.013); EfficientSAM-S → GT box (mIoU 0.787 vs 0.787 for the box alone, +0.000).
+- Practical prompts: a single box-centre point is far worse than the box (Ti 0.622, S 0.673); box + centre point gives Ti 0.784 (+0.003), S 0.783 (-0.004); the best prompt without ground truth for EfficientSAM-S is: GT box.
+- Is the gain concentrated in thin objects? not clearly — thin objects (fill < 0.3, n=60), best prompt vs box: Ti 0.548 → 0.585 (+0.036), S 0.573 → 0.573 (+0.000), compared with +0.008, +0.000 on compact objects (fill ≥ 0.6). Small objects: box Ti 0.660 → 0.673, S 0.656 → 0.656.
+- Box quality matters: mask mIoU with ±5/10/20% box jitter = Ti 0.780 / 0.774 / 0.750; S 0.786 / 0.784 / 0.768 (exact box: 0.781, 0.787); with the jittered box's centre point added at ±20%: 0.749, 0.762.
+- Pipeline (n=354 YOLO-matched objects, mean YOLO box IoU 0.88): GT box vs YOLO box = Ti 0.879 vs 0.864, S 0.888 vs 0.876; adding the YOLO box centre point → Ti 0.867 (+0.003), S 0.872 (-0.003); an oracle click on top of the GT box would reach Ti 0.883, S 0.887.
+- Mask selection: picking the candidate with the highest predicted IoU gives Ti 0.781, S 0.787 for the box prompt, vs an oracle best-of-3 of 0.816, 0.809 (single point: 0.644 vs 0.762, 0.688 vs 0.775).

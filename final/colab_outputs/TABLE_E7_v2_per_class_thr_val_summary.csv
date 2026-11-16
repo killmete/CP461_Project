@@ -1,0 +1,16 @@
+,v2 · per-class thr (val)
+Precision (micro),0.4786
+Recall (micro),0.2986
+F1 (micro),0.3677
+Precision (macro),0.4461
+Recall (macro),0.2211
+F1 (macro),0.2747
+F1 (weighted),0.3411
+Balanced accuracy,0.2211
+Accuracy (all GT objects),0.2986
+Accuracy (localised objects),0.7162
+Cohen kappa,0.1766
+MCC,0.2372
+GT objects,710.0
+Localised (IoU≥0.5),296.0
+FP on background,147.0

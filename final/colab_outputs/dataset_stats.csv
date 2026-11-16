@@ -1,0 +1,5 @@
+split,images,Plastic,Paper & Cardboard,Metal,Glass,Other Waste,objects
+train,1050,1604,346,387,179,871,3387
+val,225,327,77,74,29,180,687
+test,225,321,74,89,46,180,710
+total,1500,2252,497,550,254,1231,4784

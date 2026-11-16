@@ -1,0 +1,16 @@
+,v2 · conf 0.25
+Precision (micro),0.3849
+Recall (micro),0.3507
+F1 (micro),0.367
+Precision (macro),0.3216
+Recall (macro),0.2705
+F1 (macro),0.2734
+F1 (weighted),0.329
+Balanced accuracy,0.2705
+Accuracy (all GT objects),0.3507
+Accuracy (localised objects),0.7034
+Cohen kappa,0.2144
+MCC,0.2674
+GT objects,710.0
+Localised (IoU≥0.5),354.0
+FP on background,293.0

@@ -1,0 +1,18 @@
+prompt,key,group,objects,mIoU Ti,mDice Ti,IoU≥0.5 Ti,IoU≥0.75 Ti,mIoU S,mDice S,IoU≥0.5 S,IoU≥0.75 S,n objects
+GT box,P1,practical,all GT objects,0.781,0.863,0.901,0.658,0.787,0.867,0.903,0.656,710
+Box-centre point,P2,practical,all GT objects,0.622,0.713,0.687,0.448,0.673,0.757,0.759,0.517,710
+GT box + centre point,P3,practical,all GT objects,0.784,0.864,0.91,0.665,0.783,0.863,0.897,0.654,710
+Oracle interior point,P4,oracle,all GT objects,0.644,0.741,0.696,0.465,0.688,0.777,0.765,0.52,710
+GT box + oracle point,P5,oracle,all GT objects,0.787,0.867,0.91,0.661,0.787,0.866,0.901,0.663,710
+GT box + 3 oracle points,P6,oracle,all GT objects,0.793,0.872,0.918,0.682,0.782,0.863,0.892,0.648,710
+GT box ±5% jitter,J05,box error,all GT objects,0.78,0.862,0.9,0.646,0.786,0.866,0.903,0.658,710
+GT box ±10% jitter,J10,box error,all GT objects,0.774,0.857,0.896,0.642,0.784,0.864,0.901,0.655,710
+GT box ±20% jitter,J20,box error,all GT objects,0.75,0.84,0.872,0.587,0.768,0.853,0.897,0.621,710
+GT box ±5% jitter + centre point,J05c,box error,all GT objects,0.783,0.864,0.904,0.658,0.783,0.863,0.897,0.655,710
+GT box ±10% jitter + centre point,J10c,box error,all GT objects,0.774,0.857,0.899,0.644,0.779,0.861,0.893,0.644,710
+GT box ±20% jitter + centre point,J20c,box error,all GT objects,0.749,0.838,0.877,0.585,0.762,0.846,0.882,0.617,710
+GT box,P1,practical,YOLO-matched objects,0.879,0.931,0.977,0.876,0.888,0.936,0.986,0.89,354
+GT box + centre point,P3,practical,YOLO-matched objects,0.881,0.932,0.983,0.873,0.883,0.932,0.977,0.879,354
+GT box + oracle point,P5,oracle,YOLO-matched objects,0.883,0.934,0.983,0.873,0.887,0.935,0.986,0.887,354
+YOLO box,Y1,pipeline,YOLO-matched objects,0.864,0.919,0.969,0.845,0.876,0.927,0.975,0.859,354
+YOLO box + centre point,Y3,pipeline,YOLO-matched objects,0.867,0.922,0.969,0.847,0.872,0.924,0.969,0.853,354

@@ -1,0 +1,20 @@
+# local environments / scratch
+final/.venv/
+final/_localwork/
+final/runs/
+.claude/
+__pycache__/
+*.pyc
+
+# large or re-downloadable data (TACO images are fetched by the notebook)
+data/images/
+data/meta_1280/
+outputs.zip
+runs/
+weights/
+yolo11s.pt
+yolo26n.pt
+
+# duplicate weights (final weights live in final/colab_outputs/weights)
+outputs/weights/
+final/hf_space/*.pt

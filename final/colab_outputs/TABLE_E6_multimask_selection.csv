@@ -1,0 +1,13 @@
+prompt,model,pick by predicted IoU,always output 0,always output 1,always output 2,oracle best of 3
+GT box,EfficientSAM-Ti,0.781,0.759,0.763,0.776,0.816
+GT box,EfficientSAM-S,0.787,0.779,0.788,0.757,0.809
+Box-centre point,EfficientSAM-Ti,0.622,0.421,0.479,0.598,0.741
+Box-centre point,EfficientSAM-S,0.673,0.557,0.644,0.591,0.751
+GT box + centre point,EfficientSAM-Ti,0.784,0.763,0.769,0.779,0.816
+GT box + centre point,EfficientSAM-S,0.783,0.777,0.787,0.752,0.805
+Oracle interior point,EfficientSAM-Ti,0.644,0.438,0.498,0.615,0.762
+Oracle interior point,EfficientSAM-S,0.688,0.587,0.665,0.613,0.775
+GT box + oracle point,EfficientSAM-Ti,0.787,0.768,0.775,0.781,0.82
+GT box + oracle point,EfficientSAM-S,0.787,0.781,0.789,0.753,0.808
+GT box + 3 oracle points,EfficientSAM-Ti,0.793,0.773,0.787,0.788,0.824
+GT box + 3 oracle points,EfficientSAM-S,0.782,0.785,0.789,0.745,0.804

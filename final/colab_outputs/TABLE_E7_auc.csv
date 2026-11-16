@@ -1,0 +1,13 @@
+detector,class,GT objects,ROC-AUC,PR-AUC (AP),PR baseline (prevalence)
+v1,Plastic,321,0.722,0.676,0.452
+v1,Paper & Cardboard,74,0.691,0.341,0.104
+v1,Metal,89,0.785,0.493,0.125
+v1,Glass,46,0.536,0.082,0.065
+v1,Other Waste,180,0.634,0.361,0.254
+v1,macro,710,0.674,0.391,
+v2,Plastic,321,0.733,0.708,0.452
+v2,Paper & Cardboard,74,0.675,0.306,0.104
+v2,Metal,89,0.806,0.576,0.125
+v2,Glass,46,0.586,0.132,0.065
+v2,Other Waste,180,0.623,0.386,0.254
+v2,macro,710,0.685,0.422,

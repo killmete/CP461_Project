@@ -1,0 +1,6 @@
+,images with class (train),share of images,repeat factor
+Plastic,787,0.75,1.0
+Paper & Cardboard,243,0.231,1.139
+Metal,198,0.189,1.261
+Glass,66,0.063,2.185
+Other Waste,327,0.311,1.0

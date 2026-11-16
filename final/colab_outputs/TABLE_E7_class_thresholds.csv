@@ -1,0 +1,6 @@
+class,val GT objects,threshold (uniform search),threshold (final),val F1 @ 0.25,val F1 @ tuned,val Recall @ 0.25,val Recall @ tuned
+Plastic,327,0.6,0.45,0.451,0.486,0.483,0.465
+Paper & Cardboard,77,0.65,0.65,0.234,0.258,0.169,0.156
+Metal,74,0.7,0.7,0.4,0.436,0.392,0.324
+Glass,29,0.55,0.55,0.302,0.39,0.276,0.276
+Other Waste,180,0.2,0.2,0.216,0.219,0.167,0.178
